@@ -11,7 +11,5 @@ public class Ex10 {
         System.out.println("Superclass of char[] c: " +
                 c.getClass().getSuperclass());
         System.out.println("char[] c instanceof Object: " + (c instanceof Object));
-
-
     }
 }
