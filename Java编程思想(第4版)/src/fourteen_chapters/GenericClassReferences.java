@@ -7,7 +7,7 @@ public class GenericClassReferences {
 
     public static void main(String[] args) {
         Class intClass = int.class;
-        Class<Integer> genericIntClass = int.class;
+        Class<Integer> genericIntClass = int.class;      //应该做了类型Class的自动转换
         genericIntClass = Integer.class; // Same thing
         intClass = Double.TYPE;
 //     genericIntClass = Double.TYPE;  //Illegal\
