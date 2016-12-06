@@ -11,6 +11,10 @@ class Initable {
     static {
         System.out.println("Initializing Initable");
     }
+    //静态方法调用出发类初始化
+//    public static void print() {
+//        System.out.println("test init");
+//    }
 }
 
 class Initable2 {
@@ -31,6 +35,7 @@ public class ClassInitialization {
 
     public static void main(String[] args) throws ClassNotFoundException {
         Class initable = Initable.class;
+//        Initable.print();
         System.out.println("After creating Initable red");
         //Does not trigger initialization;
         System.out.println(Initable.staticFinal);
