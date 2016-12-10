@@ -1,7 +1,5 @@
-# Windows-specific files that require CRLF:
-*.bat       eol=crlf
-*.txt		eol=crlf
-
-# Unix-specific files that require LF:
-*.java		eol=lf
-*.sh		eol=lf
+*               text=auto
+*.txt		text
+*.java	    text eol=lf
+*.sh		text eol=lf
+*.jpg		-text
