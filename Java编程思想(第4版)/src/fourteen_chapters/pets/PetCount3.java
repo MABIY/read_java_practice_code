@@ -17,7 +17,7 @@ public class PetCount3 {
         public void count(Pet pet) {
             // Class.isInstance() eliminates instanceofs
             for (Map.Entry<Class<? extends Pet>, Integer> pair : entrySet()) {
-                if(pair)
+//                if(pair)
             }
         }
     }
