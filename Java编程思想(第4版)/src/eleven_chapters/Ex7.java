@@ -1,6 +1,7 @@
 package eleven_chapters;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -23,9 +24,7 @@ public class Ex7 {
             t[i] = new Tester();
         }
         List<Tester> lt = new ArrayList<>();
-        for (Tester x : t) {
-            lt.add(x);
-        }
+        Collections.addAll(lt, t);
         System.out.println("List of Tester" + lt);
         List<Tester> sub = lt.subList(2, 6);
         System.out.println("subList" + sub);
