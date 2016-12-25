@@ -24,7 +24,7 @@ public class ListFeatures {
         // Must be the exact Object
         System.out.println("7: " + pets.remove(p));
         System.out.println("8: " + pets);
-        pets.add(3, new Mouse()); // insert at an index
+        pets.add(3, new fourteen_chapters.pets.Mouse()); // insert at an index
         System.out.println("9: " + pets);
         List<Pet> sub = pets.subList(1, 4);
         System.out.println("subList: " + sub);
@@ -46,7 +46,7 @@ public class ListFeatures {
         System.out.println("14: " + copy);
         copy.removeAll(sub);
         System.out.println("15: " + copy);
-        copy.set(1, new Mouse()); // Replace an elements
+        copy.set(1, new fourteen_chapters.pets.Mouse()); // Replace an elements
         System.out.println("16: " + copy);
 
         copy.addAll(2, copy); // Insert a list in the middle
