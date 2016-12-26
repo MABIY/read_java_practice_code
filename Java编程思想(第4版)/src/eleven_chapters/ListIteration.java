@@ -16,6 +16,7 @@ public class ListIteration {
         while (it.hasNext())
             System.out.print(it.next() + ", " + it.nextIndex() +
             ", " + it.previousIndex() +"; ");
+        System.out.println();
         // Backward
         while (it.hasPrevious()) {
             System.out.print(it.previous().id() + " ");
