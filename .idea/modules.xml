@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Effective_Java中文版_第2版/Effective_Java中文版_第2版.iml" filepath="$PROJECT_DIR$/Effective_Java中文版_第2版/Effective_Java中文版_第2版.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java编程思想(第4版)/Java编程思想(第4版).iml" filepath="$PROJECT_DIR$/Java编程思想(第4版)/Java编程思想(第4版).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/read_java_practice_code.iml" filepath="$PROJECT_DIR$/read_java_practice_code.iml" />
     </modules>
   </component>
