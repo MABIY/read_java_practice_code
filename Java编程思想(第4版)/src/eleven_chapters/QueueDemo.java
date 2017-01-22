@@ -8,7 +8,7 @@ import java.util.Random;
  * Created by lh on 17-1-16.
  */
 public class QueueDemo {
-    private static void printQ(Queue queue) {
+    public static void printQ(Queue queue) {
         while (queue.peek()!=null) {
             System.out.print(queue.remove() + " ");
         }
