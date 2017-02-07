@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b680de4-062a-4939-aa76-8a29193d5aef" name="Default" comment="K">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ArrayNotIterable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/EnvironmentVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex31.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ForEachCollections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/IterableClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Shape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Triangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/AdapterMethodIdiom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex32.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ModifyingArraysAsList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/MultiIterableClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,6 +27,26 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Collections.java" pinned="false" current-in-tab="true">
+              <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collections.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="346">
+                    <caret line="444" column="6" lean-forward="false" selection-start-line="444" selection-start-column="6" selection-end-line="444" selection-end-column="6" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="read_java_practice_code" />
@@ -45,112 +60,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnvironmentVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/EnvironmentVariables.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ex31.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex31.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="327">
+              <caret line="135" column="7" lean-forward="false" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#30684#30685#0" expanded="true" />
+                <element signature="e#30716#30717#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Shape.java">
+      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
               <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#9883#9884#0" expanded="true" />
+                <element signature="e#9921#9922#0" expanded="true" />
+                <element signature="e#13024#13025#0" expanded="true" />
+                <element signature="e#13062#13063#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Circle.java">
+      <file leaf-file-name="AdapterMethodIdiom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/AdapterMethodIdiom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="method#reversed#0;class#ReversibleArrayList#0" expanded="false" />
+                <element signature="class#354:850" expanded="false" />
+                <element signature="method#iterator#0;class#354:850" expanded="false" />
+                <element signature="class#463:825" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Square.java">
+      <file leaf-file-name="MultiIterableClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/MultiIterableClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="method#reversed#0;class#MultiIterableClass#0" expanded="false" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#940#948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyingArraysAsList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ModifyingArraysAsList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#304#313#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Triangle.java">
+      <file leaf-file-name="NonCollectionSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/NonCollectionSequence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shapes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/fourteen_chapters/Shapes.java">
+      <file leaf-file-name="Ex32.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex32.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="335">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="class#828:1208" expanded="false" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="method#randomized#0;class#Ex32#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayNotIterable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ArrayNotIterable.java">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="3787" column="30" lean-forward="true" selection-start-line="3787" selection-start-column="30" selection-end-line="3787" selection-end-column="30" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+                <element signature="e#177353#177354#0" expanded="true" />
+                <element signature="e#177410#177411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Objects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Map.java">
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="722" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="940" column="33" lean-forward="false" selection-start-line="940" selection-start-column="33" selection-end-line="940" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="420" column="23" lean-forward="false" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -220,11 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex12.java" />
-        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex13_Controller.java" />
-        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex23_Statistics23.java" />
-        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex24.java" />
-        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex25.java" />
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex26.java" />
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex27.java" />
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/QueueDemo.java" />
@@ -271,6 +307,11 @@
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Square.java" />
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Triangle.java" />
         <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex31.java" />
+        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ReversibleArrayList.java" />
+        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/AdapterMethodIdiom.java" />
+        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/MultiIterableClass.java" />
+        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ModifyingArraysAsList.java" />
+        <option value="$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex32.java" />
       </list>
     </option>
   </component>
@@ -710,6 +751,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eleven_chapters">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -904,63 +1004,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="read_java_practice_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="read_java_practice_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java编程思想(第4版)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eleven_chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ex32.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="read_java_practice_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="read_java_practice_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java编程思想(第4版)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eleven_chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Java编程思想(第4版)">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="eleven_chapters">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdapterMethodIdiom.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -976,7 +1069,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/codestyles/google_checks.xml" />
-    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Ite&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java&#10;Collect&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collection.java&#10;Collection&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collection.java&#10;AbstractCo&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractCollection.java&#10;Iterable&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java&#10;Abstract&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractCollection.java&#10;String&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/String.class&#10;comparat&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Comparator.java&#10;queue&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Queue.java&#10;UniqueWordsAlphabetic.java&#9;FILE&#9;file:///home/lh/project/read_java_practice_code/Java编程思想(第4版)/src/net/mindview/util/UniqueWordsAlphabetic.java&#10;Sort&#9;PSI&#9;JAVA://eleven_chapters.SortedSetOfInteger&#10;Character&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/Character.class&#10;Byte&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Byte.java&#10;Boolea&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Boolean.java&#10;Boolean&#9;PSI&#9;JAVA://net.mindview.util.CountingGenerator.Boolean&#10;Integer&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Integer.java&#10;Object&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Object.java&#10;HashMap&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/HashMap.java&#10;AbstractMap&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractMap.java&#10;OBject&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Object.java&#10;SetOfInteger.java&#9;FILE&#9;file:///home/lh/project/read_java_practice_code/Java编程思想(第4版)/src/eleven_chapters/SetOfInteger.java&#10;HashMa&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/HashMap.java&#10;Set&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Set.java&#10;Stack&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Stack.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;list&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/List.java" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/ArrayList.java&#10;LinkedList&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/LinkedList.java&#10;ArrayLi&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/ArrayList.java&#10;Itera&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java&#10;Ite&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java&#10;Collect&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collection.java&#10;Collection&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collection.java&#10;AbstractCo&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractCollection.java&#10;Iterable&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java&#10;Abstract&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractCollection.java&#10;String&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/String.class&#10;comparat&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Comparator.java&#10;queue&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Queue.java&#10;UniqueWordsAlphabetic.java&#9;FILE&#9;file:///home/lh/project/read_java_practice_code/Java编程思想(第4版)/src/net/mindview/util/UniqueWordsAlphabetic.java&#10;Sort&#9;PSI&#9;JAVA://eleven_chapters.SortedSetOfInteger&#10;Character&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/Character.class&#10;Byte&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Byte.java&#10;Boolea&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Boolean.java&#10;Boolean&#9;PSI&#9;JAVA://net.mindview.util.CountingGenerator.Boolean&#10;Integer&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Integer.java&#10;Object&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Object.java&#10;HashMap&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/HashMap.java&#10;AbstractMap&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractMap.java&#10;OBject&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Object.java&#10;SetOfInteger.java&#9;FILE&#9;file:///home/lh/project/read_java_practice_code/Java编程思想(第4版)/src/eleven_chapters/SetOfInteger.java&#10;HashMa&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/HashMap.java&#10;Set&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Set.java&#10;Stack&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Stack.java&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;list&#9;FILE&#9;jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/List.java" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
@@ -1000,87 +1093,7 @@
       <recent name="$PROJECT_DIR$/Java编程思想(第4版)/src/fourteen_chapters/tem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex31">
-    <configuration default="false" name="ForEachCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eleven_chapters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eleven_chapters.ForEachCollections" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java编程思想(第4版)" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="IterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eleven_chapters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eleven_chapters.IterableClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java编程思想(第4版)" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayNotIterable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eleven_chapters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eleven_chapters.ArrayNotIterable" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java编程思想(第4版)" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="EnvironmentVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eleven_chapters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eleven_chapters.EnvironmentVariables" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java编程思想(第4版)" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Ex32">
     <configuration default="false" name="Ex31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1089,6 +1102,86 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="eleven_chapters.Ex31" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java编程思想(第4版)" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdapterMethodIdiom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="eleven_chapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="eleven_chapters.AdapterMethodIdiom" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java编程思想(第4版)" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MultiIterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="eleven_chapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="eleven_chapters.MultiIterableClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java编程思想(第4版)" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ModifyingArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="eleven_chapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="eleven_chapters.ModifyingArraysAsList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java编程思想(第4版)" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ex32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="eleven_chapters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="eleven_chapters.Ex32" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1443,19 +1536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ForEachCollections" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IterableClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayNotIterable" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EnvironmentVariables" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Ex31" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Ex31" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AdapterMethodIdiom" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MultiIterableClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ModifyingArraysAsList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Ex32" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Ex31" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EnvironmentVariables" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayNotIterable" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IterableClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ForEachCollections" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Ex32" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ModifyingArraysAsList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MultiIterableClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AdapterMethodIdiom" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Ex31" />
       </list>
     </recent_temporary>
   </component>
@@ -1594,12 +1687,14 @@
       <workItem from="1486360194128" duration="2331000" />
       <workItem from="1486362543774" duration="213000" />
       <workItem from="1486362769064" duration="751000" />
-      <workItem from="1486363532252" duration="9685000" />
+      <workItem from="1486363532252" duration="9782000" />
+      <workItem from="1486430679748" duration="3214000" />
+      <workItem from="1486447761440" duration="7586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270915000" />
+    <option name="totallyTimeSpent" value="281812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1612,7 +1707,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="52" width="960" height="1028" extended-state="4" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1622,17 +1717,16 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809225" sideWeight="0.49572194" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27645788" sideWeight="0.16043957" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23516484" sideWeight="0.47338936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2758242" sideWeight="0.47338936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33909288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23582888" sideWeight="0.49046794" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118716575" sideWeight="0.5266107" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39524838" sideWeight="0.35935828" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937366" sideWeight="0.35935828" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1643,8 +1737,41 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33909288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3174946" sideWeight="0.50427806" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40918437" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23582888" sideWeight="0.49046794" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18682505" sideWeight="0.35935828" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2948164" sideWeight="0.8197861" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809225" sideWeight="0.49572194" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27645788" sideWeight="0.16043957" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2758242" sideWeight="0.47338936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33909288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118716575" sideWeight="0.5266107" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1674,98 +1801,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/ducks/MuteQuack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/ducks/Squeak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/ducks/ModelDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/ducks/FlyRocketPowered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/Java编程思想(第4版).iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/WeaponBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/BowAndArrowBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/AxeBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/SwordBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/Troll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/Test.java" />
     <entry file="file://$PROJECT_DIR$/Head_First_设计模式/src/adapter/design/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1838,61 +1873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5624">
           <caret line="327" column="28" lean-forward="false" selection-start-line="327" selection-start-column="28" selection-end-line="327" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29308#0" expanded="false" />
-            <element signature="e#2279#2280#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="e#2469#2470#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="e#6210#6211#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-            <element signature="e#9401#9402#0" expanded="false" />
-            <element signature="e#9435#9436#0" expanded="false" />
-            <element signature="e#11485#11486#0" expanded="false" />
-            <element signature="e#11559#11560#0" expanded="false" />
-            <element signature="e#11602#11603#0" expanded="false" />
-            <element signature="e#11682#11683#0" expanded="false" />
-            <element signature="e#11730#11731#0" expanded="false" />
-            <element signature="e#11796#11797#0" expanded="false" />
-            <element signature="e#11874#11875#0" expanded="false" />
-            <element signature="e#11944#11945#0" expanded="false" />
-            <element signature="e#11988#11989#0" expanded="false" />
-            <element signature="e#12061#12062#0" expanded="false" />
-            <element signature="e#12100#12101#0" expanded="false" />
-            <element signature="e#12164#12165#0" expanded="false" />
-            <element signature="e#12217#12218#0" expanded="false" />
-            <element signature="e#12295#12296#0" expanded="false" />
-            <element signature="e#13489#13490#0" expanded="false" />
-            <element signature="e#13563#13564#0" expanded="false" />
-            <element signature="e#13606#13607#0" expanded="false" />
-            <element signature="e#13688#13689#0" expanded="false" />
-            <element signature="e#13736#13737#0" expanded="false" />
-            <element signature="e#13802#13803#0" expanded="false" />
-            <element signature="e#13880#13881#0" expanded="false" />
-            <element signature="e#13950#13951#0" expanded="false" />
-            <element signature="e#13994#13995#0" expanded="false" />
-            <element signature="e#14067#14068#0" expanded="false" />
-            <element signature="e#14106#14107#0" expanded="false" />
-            <element signature="e#14170#14171#0" expanded="false" />
-            <element signature="e#14223#14224#0" expanded="false" />
-            <element signature="e#14303#14304#0" expanded="false" />
-            <element signature="e#19540#19541#0" expanded="false" />
-            <element signature="e#19602#19603#0" expanded="false" />
-            <element signature="e#21471#21472#0" expanded="false" />
-            <element signature="e#21505#21506#0" expanded="false" />
-            <element signature="e#21686#21687#0" expanded="false" />
-            <element signature="e#21722#21723#0" expanded="false" />
-            <element signature="e#24540#24541#0" expanded="false" />
-            <element signature="e#24588#24589#0" expanded="false" />
-            <element signature="e#26015#26016#0" expanded="false" />
-            <element signature="e#26049#26050#0" expanded="false" />
-            <element signature="e#26230#26231#0" expanded="false" />
-            <element signature="e#26266#26267#0" expanded="false" />
-            <element signature="e#26762#26763#0" expanded="false" />
-            <element signature="e#26827#26828#0" expanded="false" />
-            <element signature="e#29248#29249#0" expanded="false" />
-            <element signature="e#29296#29297#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1900,24 +1880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9652">
           <caret line="538" column="16" lean-forward="false" selection-start-line="538" selection-start-column="16" selection-end-line="538" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29576#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8806#8807#0" expanded="false" />
-            <element signature="e#8859#8860#0" expanded="false" />
-            <element signature="e#19667#19668#0" expanded="false" />
-            <element signature="e#19695#19696#0" expanded="false" />
-            <element signature="e#21061#21062#0" expanded="false" />
-            <element signature="e#21115#21116#0" expanded="false" />
-            <element signature="e#21240#21241#0" expanded="false" />
-            <element signature="e#21324#21325#0" expanded="false" />
-            <element signature="e#23418#23419#0" expanded="false" />
-            <element signature="e#23474#23475#0" expanded="false" />
-            <element signature="e#25625#25626#0" expanded="false" />
-            <element signature="e#25681#25682#0" expanded="false" />
-            <element signature="e#28219#28220#0" expanded="false" />
-            <element signature="e#28262#28263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1944,26 +1906,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="850" column="0" lean-forward="false" selection-start-line="850" selection-start-column="0" selection-end-line="850" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Test.java" />
     <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1975,19 +1921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/NonCollectionSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1995,13 +1932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2020,7 +1950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2028,35 +1957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2064,37 +1964,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/IterableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="16986">
           <caret line="940" column="33" lean-forward="false" selection-start-line="940" selection-start-column="33" selection-end-line="940" selection-end-column="33" />
           <folding />
         </state>
@@ -2102,7 +1977,7 @@
     </entry>
     <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="13224">
           <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="722" selection-end-column="0" />
           <folding />
         </state>
@@ -2112,7 +1987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2120,7 +1994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2136,12 +2009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2169,16 +2037,207 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#1644#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#2789#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2712#2713#0" expanded="false" />
+            <element signature="e#2785#2786#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ReversibleArrayList.java" />
     <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex31.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="817">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1039#1040#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/IterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#1992#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="238" column="27" lean-forward="false" selection-start-line="238" selection-start-column="15" selection-end-line="238" selection-end-column="27" />
+          <folding>
+            <element signature="e#8834#8835#0" expanded="false" />
+            <element signature="e#8871#8872#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+          <folding>
+            <element signature="e#9883#9884#0" expanded="true" />
+            <element signature="e#9921#9922#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13062#13063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="556" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="1261" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/AdapterMethodIdiom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="method#reversed#0;class#ReversibleArrayList#0" expanded="false" />
+            <element signature="class#354:850" expanded="false" />
+            <element signature="method#iterator#0;class#354:850" expanded="false" />
+            <element signature="class#463:825" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="135" column="7" lean-forward="false" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+          <folding>
+            <element signature="e#30684#30685#0" expanded="true" />
+            <element signature="e#30716#30717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/MultiIterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="method#reversed#0;class#MultiIterableClass#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#940#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="3787" column="30" lean-forward="true" selection-start-line="3787" selection-start-column="30" selection-end-line="3787" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/ModifyingArraysAsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#304#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/NonCollectionSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_111/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="420" column="23" lean-forward="false" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java编程思想(第4版)/src/eleven_chapters/Ex32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="class#828:1208" expanded="false" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="method#randomized#0;class#Ex32#0" expanded="false" />
           </folding>
         </state>
       </provider>
