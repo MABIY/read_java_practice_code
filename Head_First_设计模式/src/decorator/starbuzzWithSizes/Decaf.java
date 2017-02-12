@@ -1,10 +1,9 @@
-package starbuzz;
+package decorator.starbuzzWithSizes;
 
 /**
- * Created by lh on 17-2-11.
+ * Created by lh on 17-2-12.
  */
 public class Decaf  extends Beverage{
-
     public Decaf() {
         description = "Decaf Coffee";
     }

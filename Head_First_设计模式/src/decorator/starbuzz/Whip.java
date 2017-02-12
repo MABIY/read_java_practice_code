@@ -1,21 +1,22 @@
-package starbuzz;
+package decorator.starbuzz;
 
 /**
  * Created by lh on 17-2-11.
  */
-public class Milk extends CondimentDecorator{
+public class Whip  extends CondimentDecorator{
     private Beverage beverage;
 
-    public Milk(Beverage beverage) {
+    public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
+
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ",Milk";
+        return beverage.getDescription()+",Whip";
     }
 
     @Override
     public double cost() {
-        return .10 + beverage.cost();
+        return .10+beverage.cost();
     }
 }

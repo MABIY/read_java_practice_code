@@ -1,12 +1,11 @@
-package starbuzz;
+package decorator.starbuzzWithSizes;
 
 /**
- * Created by lh on 17-2-10.
+ * Created by lh on 17-2-12.
  */
 public class Espresso extends Beverage{
-
     public Espresso() {
-        this.description = "Espresso";
+        description = "Espresso";
     }
 
     @Override

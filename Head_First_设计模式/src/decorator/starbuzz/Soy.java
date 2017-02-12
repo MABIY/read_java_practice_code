@@ -1,4 +1,4 @@
-package starbuzz;
+package decorator.starbuzz;
 
 /**
  * Created by lh on 17-2-11.
