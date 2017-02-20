@@ -10,7 +10,9 @@ import java.io.*;
 public class Elvis implements Serializable{
     public static transient final Elvis INSTANCE = new Elvis();
 
+    public int a = 0;
     private Elvis() {
+        a =2;
         System.out.println("Elvis Test");
     }
 
@@ -28,9 +30,9 @@ public class Elvis implements Serializable{
 //    }
 
     // 通过反序列化类的方式调用 readResolve
-    private Object readResolve() {
-        return INSTANCE;
-    }
+//    private Object readResolve() {
+//        return INSTANCE;
+//    }
 }
 
 class Test {
@@ -44,6 +46,9 @@ class Test {
 
         // 通过反序列化类的方式调用 readResolve
         Elvis newInstance = (Elvis) ois.readObject();
+        //是否有调用constructor
+        System.out.println("newInstance.a:"+newInstance.a);
+        System.out.println("ElvisINSTANCE.a:"+Elvis.INSTANCE.a);
         // 判断是否是同一个对象
         System.out.println(newInstance == Elvis.INSTANCE);
     }
