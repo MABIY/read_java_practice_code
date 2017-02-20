@@ -3,6 +3,7 @@ package serializable;
 import java.io.*;
 
 /**
+ * url :https://www.ibm.com/developerworks/cn/java/j-lo-serial/
  * Created by lh on 17-2-19.
  */
 public class Test implements Serializable {
