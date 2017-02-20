@@ -23,9 +23,9 @@ public class Elvis implements Serializable{
      *
      * @return the object
      */
-    private Object WriteReplace() {
-        return null;
-    }
+//    private Object WriteReplace() {
+//        return null;
+//    }
 
     // 通过反序列化类的方式调用 readResolve
     private Object readResolve() {
