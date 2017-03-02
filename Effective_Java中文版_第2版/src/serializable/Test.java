@@ -9,6 +9,10 @@ import java.io.*;
 public class Test implements Serializable {
     private static final long serialVersionUID = 1L;
 
+    private Test() {
+        System.out.println("test");
+    }
+
     public static int staticVar = 5;
 
     public static void main(String[] args)  {
